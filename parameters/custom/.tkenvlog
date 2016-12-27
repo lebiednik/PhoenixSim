@@ -1,0 +1,2702 @@
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr01701798-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr0168BCE0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr03A7D288-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr01DFBFA0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr01EE75B0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr03A8C030-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr01F075B0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr03AC75B0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr084AB9D0-2 "648x341+225+225:normal""
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr01E0F8D8-2 "648x341+225+225:normal""
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr0844D020-2 "648x341+225+225:normal""
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr0835B9B8-2 "648x341+225+225:normal""
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr03AE0F50-2 "648x341+225+225:normal""
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05C81F60-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05ED2090-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05EC2118-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05CB2118-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05DC2118-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05F05100-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05E85100-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05F65100-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05DDD160-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05D4D160-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05FE2320-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05CB13B0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05C92320-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05D02048-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05EC2268-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05F42048-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr039BB440-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05DDA300-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr055FC7D0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05741B18-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr058C4620-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr0567C620-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr056DC620-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr056DC6A8-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr0577C6A8-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr0588E958-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr056CE8D0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr0578BBA0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr0576BBA0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr0573BBA0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr0564BBA0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr057EBBA0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05679BA0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr057A9BA0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr058C5BA0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05415BA0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05295BA0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr052F5BA0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr055B7D50-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05347D50-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05433D50-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05493D50-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05343D50-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr053EBB18-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr054F8818-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05407D50-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr051C58E0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr054758E0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr053058E0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05577CC8-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr053D7CC8-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05473CC8-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05407CC8-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr054878E0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr054F6980-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05373CC8-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr055D3CC8-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05666980-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05556980-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05547CC8-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr054F7CC8-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05371BA0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr0533FDA8-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05541BA0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr054C1BA0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr054C1BA0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05351BA0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05581BA0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05401BA0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr054F1BA0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05391BA0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05291BA0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05351BA0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05461BA0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr053D1BA0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05331BA0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05371C28-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05261BA0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: modinsp.cc#237: syntax error in expression "-": premature end of expression
+    while executing
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "graphicalModuleWindow:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"graphicalModuleWindow:adjustWindowSizeAndZoom $w"
+    (procedure "createGraphicalModWindow" line 104)
+    invoked from within
+"createGraphicalModWindow .ptr05351BA0-2 """
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+Tcl error: moduleinspector.cc#930: ptr076D1610 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:animateSenddirectDelivery" line 6)
+    invoked from within
+"ModuleInspector:animateSenddirectDelivery .network ptr07B48CD0 ptr076D1610"
+
+
+Tcl error: moduleinspector.cc#930: ptr076D1610 not found
+    while executing
+"error "$tag not found""
+    (procedure "ModuleInspector:getSubmodCoords" line 4)
+    invoked from within
+"ModuleInspector:getSubmodCoords $c $modptr"
+    (procedure "ModuleInspector:animateSenddirectDelivery" line 6)
+    invoked from within
+"ModuleInspector:animateSenddirectDelivery .network ptr07B48D80 ptr076D1610"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+
+----------------------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#87: missing operand at _@_
+in expression "-_@_"
+    (parsing expression "-")
+    invoked from within
+"expr [lindex $bb 2]-[lindex $bb 0]"
+    (procedure "ModuleInspector:adjustWindowSizeAndZoom" line 13)
+    invoked from within
+"ModuleInspector:adjustWindowSizeAndZoom $insp"
+    (procedure "ModuleInspector:onSetObject" line 14)
+    invoked from within
+"ModuleInspector:onSetObject .network"
+
+

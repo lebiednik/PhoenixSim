@@ -1,0 +1,3 @@
+Si tens omnet més alt que 4.1, surt error a ORION
+Has de "comentar" les línies que comparen no sé quines versions.
+Després, a ORION_Config.h afegir: #define u_char unsigned char

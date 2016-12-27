@@ -1,0 +1,27 @@
+[General]
+
+# Application by defult, that will be overwritten
+**.application = "random"
+
+
+
+**.appParam1 = 0
+**.appParam2 = 0
+**.appParam3 = 0
+**.appParam4 = 0
+
+**.appParam5 = ""
+
+**.appParam6 = 0
+**.appParam7 = 0
+**.appParam8 = 0
+
+
+
+# processor msg overhead (in clock cycles)
+**.procMsgOverhead = 1
+
+
+**.VWTfileDir = "processingPlane/VWTdata/"
+
+**.energyPerOP = 10e-12

@@ -53,16 +53,16 @@ void MAC_BRS::initialize() {
     discarded = Statistics::registerStat("Discarded Packets", StatObject::TOTAL, "MAC");
     switched = Statistics::registerStat("Switched Packets", StatObject::TOTAL, "MAC");
     collisions = Statistics::registerStat("Number of Collisions", StatObject::TOTAL, "MAC");
-    collisions0 = Statistics::registerStat("Collisions node 0", StatObject::TOTAL, "MAC");
-    collisions1 = Statistics::registerStat("Collisions node 1", StatObject::TOTAL, "MAC");
-    collisions2 = Statistics::registerStat("Collisions node 2", StatObject::TOTAL, "MAC");
-    collisions3 = Statistics::registerStat("Collisions node 3", StatObject::TOTAL, "MAC");
-    collisions4 = Statistics::registerStat("Collisions node 4", StatObject::TOTAL, "MAC");
-    collisions5 = Statistics::registerStat("Collisions node 5", StatObject::TOTAL, "MAC");
-    collisions6 = Statistics::registerStat("Collisions node 6", StatObject::TOTAL, "MAC");
-    collisions7 = Statistics::registerStat("Collisions node 7", StatObject::TOTAL, "MAC");
-    collisions8 = Statistics::registerStat("Collisions node 8", StatObject::TOTAL, "MAC");
-    collisions9 = Statistics::registerStat("Collisions node 9", StatObject::TOTAL, "MAC");
+    collisions00 = Statistics::registerStat("Collisions node 0", StatObject::TOTAL, "MAC");
+    collisions01 = Statistics::registerStat("Collisions node 1", StatObject::TOTAL, "MAC");
+    collisions02 = Statistics::registerStat("Collisions node 2", StatObject::TOTAL, "MAC");
+    collisions03 = Statistics::registerStat("Collisions node 3", StatObject::TOTAL, "MAC");
+    collisions04 = Statistics::registerStat("Collisions node 4", StatObject::TOTAL, "MAC");
+    collisions05 = Statistics::registerStat("Collisions node 5", StatObject::TOTAL, "MAC");
+    collisions06 = Statistics::registerStat("Collisions node 6", StatObject::TOTAL, "MAC");
+    collisions07 = Statistics::registerStat("Collisions node 7", StatObject::TOTAL, "MAC");
+    collisions08 = Statistics::registerStat("Collisions node 8", StatObject::TOTAL, "MAC");
+    collisions09 = Statistics::registerStat("Collisions node 9", StatObject::TOTAL, "MAC");
     collisions10 = Statistics::registerStat("Collisions node 10", StatObject::TOTAL, "MAC");
     collisions11 = Statistics::registerStat("Collisions node 11", StatObject::TOTAL, "MAC");
     collisions12 = Statistics::registerStat("Collisions node 12", StatObject::TOTAL, "MAC");
@@ -117,6 +117,70 @@ void MAC_BRS::initialize() {
     collisions61 = Statistics::registerStat("Collisions node 61", StatObject::TOTAL, "MAC");
     collisions62 = Statistics::registerStat("Collisions node 62", StatObject::TOTAL, "MAC");
     collisions63 = Statistics::registerStat("Collisions node 63", StatObject::TOTAL, "MAC");
+    discarded00 = Statistics::registerStat("discarded node 0", StatObject::TOTAL, "MAC");
+    discarded01 = Statistics::registerStat("discarded node 1", StatObject::TOTAL, "MAC");
+    discarded02 = Statistics::registerStat("discarded node 2", StatObject::TOTAL, "MAC");
+    discarded03 = Statistics::registerStat("discarded node 3", StatObject::TOTAL, "MAC");
+    discarded04 = Statistics::registerStat("discarded node 4", StatObject::TOTAL, "MAC");
+    discarded05 = Statistics::registerStat("discarded node 5", StatObject::TOTAL, "MAC");
+    discarded06 = Statistics::registerStat("discarded node 6", StatObject::TOTAL, "MAC");
+    discarded07 = Statistics::registerStat("discarded node 7", StatObject::TOTAL, "MAC");
+    discarded08 = Statistics::registerStat("discarded node 8", StatObject::TOTAL, "MAC");
+    discarded09 = Statistics::registerStat("discarded node 9", StatObject::TOTAL, "MAC");
+    discarded10 = Statistics::registerStat("discarded node 10", StatObject::TOTAL, "MAC");
+    discarded11 = Statistics::registerStat("discarded node 11", StatObject::TOTAL, "MAC");
+    discarded12 = Statistics::registerStat("discarded node 12", StatObject::TOTAL, "MAC");
+    discarded13 = Statistics::registerStat("discarded node 13", StatObject::TOTAL, "MAC");
+    discarded14 = Statistics::registerStat("discarded node 14", StatObject::TOTAL, "MAC");
+    discarded15 = Statistics::registerStat("discarded node 15", StatObject::TOTAL, "MAC");
+    discarded16 = Statistics::registerStat("discarded node 16", StatObject::TOTAL, "MAC");
+    discarded17 = Statistics::registerStat("discarded node 17", StatObject::TOTAL, "MAC");
+    discarded18 = Statistics::registerStat("discarded node 18", StatObject::TOTAL, "MAC");
+    discarded19 = Statistics::registerStat("discarded node 19", StatObject::TOTAL, "MAC");
+    discarded20 = Statistics::registerStat("discarded node 20", StatObject::TOTAL, "MAC");
+    discarded21 = Statistics::registerStat("discarded node 21", StatObject::TOTAL, "MAC");
+    discarded22 = Statistics::registerStat("discarded node 22", StatObject::TOTAL, "MAC");
+    discarded23 = Statistics::registerStat("discarded node 23", StatObject::TOTAL, "MAC");
+    discarded24 = Statistics::registerStat("discarded node 24", StatObject::TOTAL, "MAC");
+    discarded25 = Statistics::registerStat("discarded node 25", StatObject::TOTAL, "MAC");
+    discarded26 = Statistics::registerStat("discarded node 26", StatObject::TOTAL, "MAC");
+    discarded27 = Statistics::registerStat("discarded node 27", StatObject::TOTAL, "MAC");
+    discarded28 = Statistics::registerStat("discarded node 28", StatObject::TOTAL, "MAC");
+    discarded29 = Statistics::registerStat("discarded node 29", StatObject::TOTAL, "MAC");
+    discarded30 = Statistics::registerStat("discarded node 30", StatObject::TOTAL, "MAC");
+    discarded31 = Statistics::registerStat("discarded node 31", StatObject::TOTAL, "MAC");
+    discarded32 = Statistics::registerStat("discarded node 32", StatObject::TOTAL, "MAC");
+    discarded33 = Statistics::registerStat("discarded node 33", StatObject::TOTAL, "MAC");
+    discarded34 = Statistics::registerStat("discarded node 34", StatObject::TOTAL, "MAC");
+    discarded35 = Statistics::registerStat("discarded node 35", StatObject::TOTAL, "MAC");
+    discarded36 = Statistics::registerStat("discarded node 36", StatObject::TOTAL, "MAC");
+    discarded37 = Statistics::registerStat("discarded node 37", StatObject::TOTAL, "MAC");
+    discarded38 = Statistics::registerStat("discarded node 38", StatObject::TOTAL, "MAC");
+    discarded39 = Statistics::registerStat("discarded node 39", StatObject::TOTAL, "MAC");
+    discarded40 = Statistics::registerStat("discarded node 40", StatObject::TOTAL, "MAC");
+    discarded41 = Statistics::registerStat("discarded node 41", StatObject::TOTAL, "MAC");
+    discarded42 = Statistics::registerStat("discarded node 42", StatObject::TOTAL, "MAC");
+    discarded43 = Statistics::registerStat("discarded node 43", StatObject::TOTAL, "MAC");
+    discarded44 = Statistics::registerStat("discarded node 44", StatObject::TOTAL, "MAC");
+    discarded45 = Statistics::registerStat("discarded node 45", StatObject::TOTAL, "MAC");
+    discarded46 = Statistics::registerStat("discarded node 46", StatObject::TOTAL, "MAC");
+    discarded47 = Statistics::registerStat("discarded node 47", StatObject::TOTAL, "MAC");
+    discarded48 = Statistics::registerStat("discarded node 48", StatObject::TOTAL, "MAC");
+    discarded49 = Statistics::registerStat("discarded node 49", StatObject::TOTAL, "MAC");
+    discarded50 = Statistics::registerStat("discarded node 50", StatObject::TOTAL, "MAC");
+    discarded51 = Statistics::registerStat("discarded node 51", StatObject::TOTAL, "MAC");
+    discarded52 = Statistics::registerStat("discarded node 52", StatObject::TOTAL, "MAC");
+    discarded53 = Statistics::registerStat("discarded node 53", StatObject::TOTAL, "MAC");
+    discarded54 = Statistics::registerStat("discarded node 54", StatObject::TOTAL, "MAC");
+    discarded55 = Statistics::registerStat("discarded node 55", StatObject::TOTAL, "MAC");
+    discarded56 = Statistics::registerStat("discarded node 56", StatObject::TOTAL, "MAC");
+    discarded57 = Statistics::registerStat("discarded node 57", StatObject::TOTAL, "MAC");
+    discarded58 = Statistics::registerStat("discarded node 58", StatObject::TOTAL, "MAC");
+    discarded59 = Statistics::registerStat("discarded node 59", StatObject::TOTAL, "MAC");
+    discarded60 = Statistics::registerStat("discarded node 60", StatObject::TOTAL, "MAC");
+    discarded61 = Statistics::registerStat("discarded node 61", StatObject::TOTAL, "MAC");
+    discarded62 = Statistics::registerStat("discarded node 62", StatObject::TOTAL, "MAC");
+    discarded63 = Statistics::registerStat("discarded node 63", StatObject::TOTAL, "MAC");
 
 
     backoffMsg = new cMessage("backoffMsg");
@@ -164,12 +228,12 @@ void MAC_BRS::handleMessage(cMessage *msg) {
                 if(outmsg->getNumRetries() == 100) opp_error("This cannot be.\n");
                 send(outmsg->dup(),"macToPhy");
                 state = TRANSMITTING;
-                nRetries = 0;
+                //nRetries = 0;
             }
             else {
                 //ev << "MAC: Backoff finished but channel busy (State = " << state << ")" << endl;
                 // Backoff si no arribem al l�mit de retries
-                if(retries < 2) {
+                if(retries < 2000) {
                     //fprintf(stderr,"%.12f: Unsuccessful backoff. Changing packet retries to %d.\n",simTime().dbl(),retries+1);
                     outmsg->setNumRetries(retries+1);
                     setBackOff();
@@ -247,7 +311,7 @@ void MAC_BRS::handleMessage(cMessage *msg) {
             //ev << "MAC: Time out Tx finished";
             if (nackDetected) { // after collision, set retry.
                 int retries = m->getNumRetries();
-                if(retries < 2) {
+                if(retries < 2000) {
                     //fprintf(stderr,"%.12f: Collision. Changing packet retries to %d.\n",simTime().dbl(),retries+1);
                     m->setNumRetries(retries+1);
                     setBackOff();
@@ -301,6 +365,7 @@ void MAC_BRS::handleMessage(cMessage *msg) {
             //ev << "   longer message, end hack" << endl;
             ElectronicMessage* m = MACqueue.front();
            delete m;
+           nRetries = 0;
             MACqueue.pop();
             setBackOff();
             if(MACqueue.size() < 3) {
@@ -350,34 +415,34 @@ void MAC_BRS::handleMessage(cMessage *msg) {
                         //ev << "MAC: Collision detected after transmitting  (Start time out tx)" << endl;
                         collisions->track(1);
                         if (idnum == 0){
-                          collisions0->track(1);
+                          collisions00->track(1);
                         }
                         else if (idnum == 1){
-                          collisions1->track(1);
+                          collisions01->track(1);
                         }
                         else if (idnum == 2){
-                          collisions2->track(1);
+                          collisions02->track(1);
                         }
                         else if (idnum == 3){
-                          collisions3->track(1);
+                          collisions03->track(1);
                         }
                         else if (idnum == 4){
-                          collisions4->track(1);
+                          collisions04->track(1);
                         }
                         else if (idnum == 5){
-                          collisions5->track(1);
+                          collisions05->track(1);
                         }
                         else if (idnum == 6){
-                          collisions6->track(1);
+                          collisions06->track(1);
                         }
                         else if (idnum == 7){
-                          collisions7->track(1);
+                          collisions07->track(1);
                         }
                         else if (idnum == 8){
-                          collisions8->track(1);
+                          collisions08->track(1);
                         }
                         else if (idnum == 9){
-                          collisions9->track(1);
+                          collisions09->track(1);
                         }
                         else if (idnum == 10){
                           collisions10->track(1);
@@ -622,7 +687,7 @@ void MAC_BRS::handleMessage(cMessage *msg) {
                 if (state == LISTENING) {
                     send(msg->dup(),"macToPhy");
                     state = TRANSMITTING;
-                    nRetries = 0;
+                    //nRetries = 0;
                 // If not backoff and the channel is not free, backoff
                 } else {
                     int retries = emsg->getNumRetries();
@@ -638,6 +703,198 @@ void MAC_BRS::handleMessage(cMessage *msg) {
         } else {
             //ev << "MAC: La cua plena, missatge descartat" << endl;
             discarded->track(1);
+            if (idnum == 0){
+              discarded00->track(1);
+            }
+            else if (idnum == 1){
+              discarded01->track(1);
+            }
+            else if (idnum == 2){
+              discarded02->track(1);
+            }
+            else if (idnum == 3){
+              discarded03->track(1);
+            }
+            else if (idnum == 4){
+              discarded04->track(1);
+            }
+            else if (idnum == 5){
+              discarded05->track(1);
+            }
+            else if (idnum == 6){
+              discarded06->track(1);
+            }
+            else if (idnum == 7){
+              discarded07->track(1);
+            }
+            else if (idnum == 8){
+              discarded08->track(1);
+            }
+            else if (idnum == 9){
+              discarded09->track(1);
+            }
+            else if (idnum == 10){
+              discarded10->track(1);
+            }
+            else if (idnum == 11){
+              discarded11->track(1);
+            }
+            else if (idnum == 12){
+              discarded12->track(1);
+            }
+            else if (idnum == 13){
+              discarded13->track(1);
+            }
+            else if (idnum == 14){
+              discarded14->track(1);
+            }
+            else if (idnum == 15){
+              discarded15->track(1);
+            }
+            else if (idnum == 16){
+              discarded16->track(1);
+            }
+            else if (idnum == 17){
+              discarded17->track(1);
+            }
+            else if (idnum == 18){
+              discarded18->track(1);
+            }
+            else if (idnum == 19){
+              discarded19->track(1);
+            }
+            else if (idnum == 20){
+              discarded20->track(1);
+            }
+            else if (idnum == 21){
+              discarded21->track(1);
+            }
+            else if (idnum == 22){
+              discarded22->track(1);
+            }
+            else if (idnum == 23){
+              discarded23->track(1);
+            }
+            else if (idnum == 24){
+              discarded24->track(1);
+            }
+            else if (idnum == 25){
+              discarded25->track(1);
+            }
+            else if (idnum == 26){
+              discarded26->track(1);
+            }
+            else if (idnum == 27){
+              discarded27->track(1);
+            }
+            else if (idnum == 28){
+              discarded28->track(1);
+            }
+            else if (idnum == 29){
+              discarded29->track(1);
+            }
+            else if (idnum == 30){
+              discarded30->track(1);
+            }
+            else if (idnum == 31){
+              discarded31->track(1);
+            }
+            else if (idnum == 32){
+              discarded32->track(1);
+            }
+            else if (idnum == 33){
+              discarded33->track(1);
+            }
+            else if (idnum == 34){
+              discarded34->track(1);
+            }
+            else if (idnum == 35){
+              discarded35->track(1);
+            }
+            else if (idnum == 36){
+              discarded36->track(1);
+            }
+            else if (idnum == 37){
+              discarded37->track(1);
+            }
+            else if (idnum == 38){
+              discarded38->track(1);
+            }
+            else if (idnum == 39){
+              discarded39->track(1);
+            }
+            else if (idnum == 40){
+              discarded40->track(1);
+            }
+            else if (idnum == 41){
+              discarded41->track(1);
+            }
+            else if (idnum == 42){
+              discarded42->track(1);
+            }
+            else if (idnum == 43){
+              discarded43->track(1);
+            }
+            else if (idnum == 44){
+              discarded44->track(1);
+            }
+            else if (idnum == 45){
+              discarded45->track(1);
+            }
+            else if (idnum == 46){
+              discarded46->track(1);
+            }
+            else if (idnum == 47){
+              discarded47->track(1);
+            }
+            else if (idnum == 48){
+              discarded48->track(1);
+            }
+            else if (idnum == 49){
+              discarded49->track(1);
+            }
+            else if (idnum == 50){
+              discarded50->track(1);
+            }
+            else if (idnum == 51){
+              discarded51->track(1);
+            }
+            else if (idnum == 52){
+              discarded52->track(1);
+            }
+            else if (idnum == 53){
+              discarded53->track(1);
+            }
+            else if (idnum == 54){
+              discarded54->track(1);
+            }
+            else if (idnum == 55){
+              discarded55->track(1);
+            }
+            else if (idnum == 56){
+              discarded56->track(1);
+            }
+            else if (idnum == 57){
+              discarded57->track(1);
+            }
+            else if (idnum == 58){
+              discarded58->track(1);
+            }
+            else if (idnum == 59){
+              discarded59->track(1);
+            }
+            else if (idnum == 60){
+              discarded60->track(1);
+            }
+            else if (idnum == 61){
+              discarded61->track(1);
+            }
+            else if (idnum == 62){
+              discarded62->track(1);
+            }
+            else if (idnum == 63){
+              discarded63->track(1);
+            }
             delete msg;
         }
     }
@@ -660,9 +917,9 @@ void MAC_BRS::setBackOff() {
 
             double value = uniform(clockPeriod, maxBO);
             if ( idnum == 0 ){ //1 = unhealthy
-              //double adjust_backoff = 2.0;
+              double adjust_backoff = 2.0;
               //maxBO = backOffPeriod;
-              value = clockPeriod;
+              //value = clockPeriod;
             }
             //else { // else healthy
               //double adjust_backoff = 1.0;

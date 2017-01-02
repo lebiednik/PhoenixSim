@@ -238,17 +238,17 @@ void Processor::initialize(int stage) {
 	//below taken from bw
 	SO_num_messages_in = Statistics::registerStat("Total messages in", StatObject::TOTAL, "MAC");
 	SO_num_messages_out = Statistics::registerStat("Total messages out", StatObject::TOTAL, "MAC");
-	SO_num_messages_0 = Statistics::registerStat("Node 0", StatObject::TOTAL, "MAC");
+	SO_num_messages_00 = Statistics::registerStat("Node 0", StatObject::TOTAL, "MAC");
 	//p=0 gets all of the packets
-	SO_num_messages_1 = Statistics::registerStat("Node 1 messages sent", StatObject::TOTAL, "MAC");
-	SO_num_messages_2 = Statistics::registerStat("Node 2 messages sent", StatObject::TOTAL, "MAC");
-	SO_num_messages_3 = Statistics::registerStat("Node 3 messages sent", StatObject::TOTAL, "MAC");
-	SO_num_messages_4 = Statistics::registerStat("Node 4 messages sent", StatObject::TOTAL, "MAC");
-	SO_num_messages_5 = Statistics::registerStat("Node 5 messages sent", StatObject::TOTAL, "MAC");
-	SO_num_messages_6 = Statistics::registerStat("Node 6 messages sent", StatObject::TOTAL, "MAC");
-	SO_num_messages_7 = Statistics::registerStat("Node 7 messages sent", StatObject::TOTAL, "MAC");
-	SO_num_messages_8 = Statistics::registerStat("Node 8 messages sent", StatObject::TOTAL, "MAC");
-	SO_num_messages_9 = Statistics::registerStat("Node 9 messages sent", StatObject::TOTAL, "MAC");
+	SO_num_messages_01 = Statistics::registerStat("Node 01 messages sent", StatObject::TOTAL, "MAC");
+	SO_num_messages_02 = Statistics::registerStat("Node 02 messages sent", StatObject::TOTAL, "MAC");
+	SO_num_messages_03 = Statistics::registerStat("Node 03 messages sent", StatObject::TOTAL, "MAC");
+	SO_num_messages_04 = Statistics::registerStat("Node 04 messages sent", StatObject::TOTAL, "MAC");
+	SO_num_messages_05 = Statistics::registerStat("Node 05 messages sent", StatObject::TOTAL, "MAC");
+	SO_num_messages_06 = Statistics::registerStat("Node 06 messages sent", StatObject::TOTAL, "MAC");
+	SO_num_messages_07 = Statistics::registerStat("Node 07 messages sent", StatObject::TOTAL, "MAC");
+	SO_num_messages_08 = Statistics::registerStat("Node 08 messages sent", StatObject::TOTAL, "MAC");
+	SO_num_messages_09 = Statistics::registerStat("Node 09 messages sent", StatObject::TOTAL, "MAC");
 	SO_num_messages_10 = Statistics::registerStat("Node 10 messages sent", StatObject::TOTAL, "MAC");
 	SO_num_messages_11 = Statistics::registerStat("Node 11 messages sent", StatObject::TOTAL, "MAC");
 	SO_num_messages_12 = Statistics::registerStat("Node 12 messages sent", StatObject::TOTAL, "MAC");
@@ -304,16 +304,16 @@ void Processor::initialize(int stage) {
 	SO_num_messages_62 = Statistics::registerStat("Node 62 messages sent", StatObject::TOTAL, "MAC");
 	SO_num_messages_63 = Statistics::registerStat("Node 63 messages sent", StatObject::TOTAL, "MAC");
 
-	SO_latency_bcast_0 = Statistics::registerStat("Broadcast Latency Node 0 (us)", StatObject::AVG,"application");
-	SO_latency_bcast_1 = Statistics::registerStat("Broadcast Latency Node 1(us)", StatObject::AVG,"application");
-	SO_latency_bcast_2 = Statistics::registerStat("Broadcast Latency Node 2(us)", StatObject::AVG,"application");
-	SO_latency_bcast_3 = Statistics::registerStat("Broadcast Latency Node 3(us)", StatObject::AVG,"application");
-	SO_latency_bcast_4 = Statistics::registerStat("Broadcast Latency Node 4(us)", StatObject::AVG,"application");
-	SO_latency_bcast_5 = Statistics::registerStat("Broadcast Latency Node 5(us)", StatObject::AVG,"application");
-	SO_latency_bcast_6 = Statistics::registerStat("Broadcast Latency Node 6(us)", StatObject::AVG,"application");
-	SO_latency_bcast_7 = Statistics::registerStat("Broadcast Latency Node 7(us)", StatObject::AVG,"application");
-	SO_latency_bcast_8 = Statistics::registerStat("Broadcast Latency Node 8(us)", StatObject::AVG,"application");
-	SO_latency_bcast_9 = Statistics::registerStat("Broadcast Latency Node 9(us)", StatObject::AVG,"application");
+	SO_latency_bcast_00 = Statistics::registerStat("Broadcast Latency Node 0 (us)", StatObject::AVG,"application");
+	SO_latency_bcast_01 = Statistics::registerStat("Broadcast Latency Node 1(us)", StatObject::AVG,"application");
+	SO_latency_bcast_02 = Statistics::registerStat("Broadcast Latency Node 2(us)", StatObject::AVG,"application");
+	SO_latency_bcast_03 = Statistics::registerStat("Broadcast Latency Node 3(us)", StatObject::AVG,"application");
+	SO_latency_bcast_04 = Statistics::registerStat("Broadcast Latency Node 4(us)", StatObject::AVG,"application");
+	SO_latency_bcast_05 = Statistics::registerStat("Broadcast Latency Node 5(us)", StatObject::AVG,"application");
+	SO_latency_bcast_06 = Statistics::registerStat("Broadcast Latency Node 6(us)", StatObject::AVG,"application");
+	SO_latency_bcast_07 = Statistics::registerStat("Broadcast Latency Node 7(us)", StatObject::AVG,"application");
+	SO_latency_bcast_08 = Statistics::registerStat("Broadcast Latency Node 8(us)", StatObject::AVG,"application");
+	SO_latency_bcast_09 = Statistics::registerStat("Broadcast Latency Node 9(us)", StatObject::AVG,"application");
 	SO_latency_bcast_10 = Statistics::registerStat("Broadcast Latency Node 10(us)", StatObject::AVG,"application");
 	SO_latency_bcast_11 = Statistics::registerStat("Broadcast Latency Node 11(us)", StatObject::AVG,"application");
 	SO_latency_bcast_12 = Statistics::registerStat("Broadcast Latency Node 12(us)", StatObject::AVG,"application");
@@ -668,44 +668,44 @@ void Processor::handleMessage(cMessage* msg) {
 			int n = adata->getSrcId();
 			if (destID == id){ //check if this is the destination node
 				if (n ==0 ){ //track source of message if destined for this node
-					SO_num_messages_0->track(1);
-					SO_latency_bcast_0->track(SIMTIME_DBL(simTime()- adata->getCreationTime()) / 1e-6);
+					SO_num_messages_00->track(1);
+					SO_latency_bcast_00->track(SIMTIME_DBL(simTime()- adata->getCreationTime()) / 1e-6);
 				}
 				else if (n == 1){
-					SO_num_messages_1->track(1);
-					SO_latency_bcast_1->track(SIMTIME_DBL(simTime()- adata->getCreationTime()) / 1e-6);
+					SO_num_messages_01->track(1);
+					SO_latency_bcast_01->track(SIMTIME_DBL(simTime()- adata->getCreationTime()) / 1e-6);
 				}
 				else if (n==2){
-					SO_num_messages_2->track(1);
-					SO_latency_bcast_2->track(SIMTIME_DBL(simTime()- adata->getCreationTime()) / 1e-6);
+					SO_num_messages_02->track(1);
+					SO_latency_bcast_02->track(SIMTIME_DBL(simTime()- adata->getCreationTime()) / 1e-6);
 				}
 				else if (n == 3){
-					SO_num_messages_3->track(1);
-					SO_latency_bcast_3->track(SIMTIME_DBL(simTime()- adata->getCreationTime()) / 1e-6);
+					SO_num_messages_03->track(1);
+					SO_latency_bcast_03->track(SIMTIME_DBL(simTime()- adata->getCreationTime()) / 1e-6);
 				}
 				else if (n==4){
-					SO_num_messages_4->track(1);
-					SO_latency_bcast_4->track(SIMTIME_DBL(simTime()- adata->getCreationTime()) / 1e-6);
+					SO_num_messages_04->track(1);
+					SO_latency_bcast_04->track(SIMTIME_DBL(simTime()- adata->getCreationTime()) / 1e-6);
 				}
 				else if (n == 5){
-					SO_num_messages_5->track(1);
-					SO_latency_bcast_5->track(SIMTIME_DBL(simTime()- adata->getCreationTime()) / 1e-6);
+					SO_num_messages_05->track(1);
+					SO_latency_bcast_05->track(SIMTIME_DBL(simTime()- adata->getCreationTime()) / 1e-6);
 				}
 				else if (n==6){
-					SO_num_messages_6->track(1);
-					SO_latency_bcast_6->track(SIMTIME_DBL(simTime()- adata->getCreationTime()) / 1e-6);
+					SO_num_messages_06->track(1);
+					SO_latency_bcast_06->track(SIMTIME_DBL(simTime()- adata->getCreationTime()) / 1e-6);
 				}
 				else if (n == 7){
-					SO_num_messages_7->track(1);
-					SO_latency_bcast_7->track(SIMTIME_DBL(simTime()- adata->getCreationTime()) / 1e-6);
+					SO_num_messages_07->track(1);
+					SO_latency_bcast_07->track(SIMTIME_DBL(simTime()- adata->getCreationTime()) / 1e-6);
 				}
 				else if (n==8){
-					SO_num_messages_8->track(1);
-					SO_latency_bcast_8->track(SIMTIME_DBL(simTime()- adata->getCreationTime()) / 1e-6);
+					SO_num_messages_08->track(1);
+					SO_latency_bcast_08->track(SIMTIME_DBL(simTime()- adata->getCreationTime()) / 1e-6);
 				}
 				else if (n ==9){
-					SO_num_messages_9->track(1);
-					SO_latency_bcast_9->track(SIMTIME_DBL(simTime()- adata->getCreationTime()) / 1e-6);
+					SO_num_messages_09->track(1);
+					SO_latency_bcast_09->track(SIMTIME_DBL(simTime()- adata->getCreationTime()) / 1e-6);
 				}
 				else if (n==10){
 					SO_num_messages_10->track(1);
@@ -725,7 +725,7 @@ void Processor::handleMessage(cMessage* msg) {
 				}
 				else if (n==14){
 					SO_num_messages_14->track(1);
-					SO_latency_bcast_13->track(SIMTIME_DBL(simTime()- adata->getCreationTime()) / 1e-6);
+					SO_latency_bcast_14->track(SIMTIME_DBL(simTime()- adata->getCreationTime()) / 1e-6);
 				}
 				else if (n == 15){
 					SO_num_messages_15->track(1);

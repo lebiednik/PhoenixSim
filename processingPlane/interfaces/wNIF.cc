@@ -244,8 +244,8 @@ void wNIF::procMsgArrived(ProcessorData* pdata) { //OK
 	//NetworkAddress* node = (NetworkAddress*) pdata->getSrcAddr();
 	//int n = node->id[AddressTranslator::convertLevel("NET")];
 
-	if(id < 16 ){ //4 times the traffic for nodes in quadrant 0
-		for(int i=0; i<8; i++){
+	if(id == 0 ){ //4 times the traffic for nodes in quadrant 0
+		for(int i=0; i<11; i++){
 			ProcessorData* junk;
 
 			junk = pdata->dup(); //generates duplicates of the data
@@ -253,7 +253,7 @@ void wNIF::procMsgArrived(ProcessorData* pdata) { //OK
 			waiting.push_back(junk); //adds to the unhealthy node so it will keep sending
 		}
 	}
-	else if((id >= 16) && (id<32) ){ //3 times the traffic for nodes in quadrant 1
+	/*else if((id >= 16) && (id<32) ){ //3 times the traffic for nodes in quadrant 1
 		for(int i=0; i<5; i++){
 			ProcessorData* junk;
 
@@ -271,6 +271,7 @@ void wNIF::procMsgArrived(ProcessorData* pdata) { //OK
 			waiting.push_back(junk); //adds to the unhealthy node so it will keep sending
 		}
 	}
+	*/
 	//Regular traffic for the rest of the nodes
 
 	// Put data into the queue "to be transmitted into the network"

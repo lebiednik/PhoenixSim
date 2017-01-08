@@ -94,7 +94,6 @@ protected:
 	StatObject* SO_lat_conc;
 	StatObject* SO_lat_ser;
 	StatObject* SO_lat_prop;
-  StatObject* SO_num_messages_test;
 
 	//processor side
 	cGate* procReqIn;

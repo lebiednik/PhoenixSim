@@ -78,7 +78,6 @@ void wNIF::initialize() { // OK
 	SO_lat_ser = Statistics::registerStat("Serialization latency", StatObject::AVG, "wNIF");
 	SO_lat_prop = Statistics::registerStat("Propagation latency", StatObject::AVG, "wNIF");
 	SO_qTime = Statistics::registerStat("Time in wNIF Q", StatObject::AVG, "wNIF");
-	//SO_num_messages_test = Statistics::registerStat("Testing addresses", StatObject::TOTAL, "MAC");
 
 	id = par("id");
 }
@@ -244,7 +243,7 @@ void wNIF::procMsgArrived(ProcessorData* pdata) { //OK
 	//NetworkAddress* node = (NetworkAddress*) pdata->getSrcAddr();
 	//int n = node->id[AddressTranslator::convertLevel("NET")];
 
-	if(id == 0 ){ //4 times the traffic for nodes in quadrant 0
+	if(id == -1 ){ //4 times the traffic for nodes in quadrant 0
 		for(int i=0; i<11; i++){
 			ProcessorData* junk;
 

@@ -49,8 +49,7 @@ private:
   double adjust_backoff;
 
 	int nRetries;
-  int unhealthy;//added 25 Oct 2016 by Brian Lebiednik for CSMA unhealthy node
-
+  double value;
 
 
 	cMessage *backoffMsg;
@@ -66,6 +65,16 @@ private:
     // END HACK
 
 	StatObject* collisions;
+  StatObject* collisions00;
+  StatObject* collisions01;
+  StatObject* collisions02;
+  StatObject* collisions03;
+  StatObject* collisions04;
+  StatObject* collisions05;
+  StatObject* collisions06;
+  StatObject* collisions07;
+  StatObject* collisions08;
+  StatObject* collisions09;
   StatObject* collisions10;
   StatObject* collisions11;
   StatObject* collisions12;
@@ -96,16 +105,6 @@ private:
   StatObject* collisions37;
   StatObject* collisions38;
   StatObject* collisions39;
-  StatObject* collisions00;
-  StatObject* collisions01;
-  StatObject* collisions02;
-  StatObject* collisions03;
-  StatObject* collisions04;
-  StatObject* collisions05;
-  StatObject* collisions06;
-  StatObject* collisions07;
-  StatObject* collisions08;
-  StatObject* collisions09;
   StatObject* collisions40;
   StatObject* collisions41;
   StatObject* collisions42;
@@ -131,6 +130,16 @@ private:
   StatObject* collisions62;
   StatObject* collisions63;
 
+  StatObject* discarded00;
+  StatObject* discarded01;
+  StatObject* discarded02;
+  StatObject* discarded03;
+  StatObject* discarded04;
+  StatObject* discarded05;
+  StatObject* discarded06;
+  StatObject* discarded07;
+  StatObject* discarded08;
+  StatObject* discarded09;
   StatObject* discarded10;
   StatObject* discarded11;
   StatObject* discarded12;
@@ -161,16 +170,6 @@ private:
   StatObject* discarded37;
   StatObject* discarded38;
   StatObject* discarded39;
-  StatObject* discarded00;
-  StatObject* discarded01;
-  StatObject* discarded02;
-  StatObject* discarded03;
-  StatObject* discarded04;
-  StatObject* discarded05;
-  StatObject* discarded06;
-  StatObject* discarded07;
-  StatObject* discarded08;
-  StatObject* discarded09;
   StatObject* discarded40;
   StatObject* discarded41;
   StatObject* discarded42;
@@ -196,10 +195,75 @@ private:
   StatObject* discarded62;
   StatObject* discarded63;
 
+  StatObject* backoff00;
+  StatObject* backoff01;
+  StatObject* backoff02;
+  StatObject* backoff03;
+  StatObject* backoff04;
+  StatObject* backoff05;
+  StatObject* backoff06;
+  StatObject* backoff07;
+  StatObject* backoff08;
+  StatObject* backoff09;
+  StatObject* backoff10;
+  StatObject* backoff11;
+  StatObject* backoff12;
+  StatObject* backoff13;
+  StatObject* backoff14;
+  StatObject* backoff15;
+  StatObject* backoff16;
+  StatObject* backoff17;
+  StatObject* backoff18;
+  StatObject* backoff19;
+  StatObject* backoff20;
+  StatObject* backoff21;
+  StatObject* backoff22;
+  StatObject* backoff23;
+  StatObject* backoff24;
+  StatObject* backoff25;
+  StatObject* backoff26;
+  StatObject* backoff27;
+  StatObject* backoff28;
+  StatObject* backoff29;
+  StatObject* backoff30;
+  StatObject* backoff31;
+  StatObject* backoff32;
+  StatObject* backoff33;
+  StatObject* backoff34;
+  StatObject* backoff35;
+  StatObject* backoff36;
+  StatObject* backoff37;
+  StatObject* backoff38;
+  StatObject* backoff39;
+  StatObject* backoff40;
+  StatObject* backoff41;
+  StatObject* backoff42;
+  StatObject* backoff43;
+  StatObject* backoff44;
+  StatObject* backoff45;
+  StatObject* backoff46;
+  StatObject* backoff47;
+  StatObject* backoff48;
+  StatObject* backoff49;
+  StatObject* backoff50;
+  StatObject* backoff51;
+  StatObject* backoff52;
+  StatObject* backoff53;
+  StatObject* backoff54;
+  StatObject* backoff55;
+  StatObject* backoff56;
+  StatObject* backoff57;
+  StatObject* backoff58;
+  StatObject* backoff59;
+  StatObject* backoff60;
+  StatObject* backoff61;
+  StatObject* backoff62;
+  StatObject* backoff63;
+
+
 	StatObject* discarded;
 	StatObject* switched;
-  //StatObject* SO_num_messages_test2;
-  //StatObject* SO_num_messages_test3;
+
 
 	queue<ElectronicMessage*> MACqueue;
 	ElectronicMessage* inMsg;

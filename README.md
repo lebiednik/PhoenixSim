@@ -9,7 +9,7 @@ These include:
 *All line locations are approximate*
 
 1. electronicComponents/MAC_Layer/MAC_BRS.h
-* Lines 68 - 197
+   * Lines 68 - 197
 Added variables for both collisions by node and discarded packets by node (Currently packets are only discarded if the queue is full at the node)
    * Lines 199 - 262
 

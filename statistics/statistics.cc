@@ -43,11 +43,18 @@ Statistics::Statistics() {
 //	sg = new StatGroup_Sum("Electronic Energy", StatObject::ENERGY_STATIC,
 //			StatObject::ENERGY_LAST, "electronic");
 //	groups.push_back(sg);
-
-    StatGroup* sg = new StatGroup_ListAll("Router & Link Stats",
+  //Begin Malicious Stats
+  StatGroup* sg = new StatGroup_ListAll("Malicious: Perfomance", StatObject::AVG,
+          StatObject::AVG, "maliciousavg");  //replace application
+  groups.push_back(sg);
+  sg = new StatGroup_ListAll("Malicious: Counts", StatObject::TOTAL,
+          StatObject::TOTAL, "malicioustotal");  //replace MAC
+  groups.push_back(sg);
+  //End Malicious Stats
+  sg = new StatGroup_ListAll("Router & Link Stats",
               StatObject::TOTAL, StatObject::TOTAL, "electronic");
 
-      groups.push_back(sg);
+  groups.push_back(sg);
 
 		// Wireless
 	sg = new StatGroup_ListAll("Wireless Energy",
@@ -58,7 +65,7 @@ Statistics::Statistics() {
 			StatObject::ENERGY_LAST, "wireless");
 	groups.push_back(sg);
 		// End wireless
-		
+
 	sg = new StatGroup_ListAll("Photonic Energy", StatObject::ENERGY_STATIC,
 			StatObject::ENERGY_LAST, "photonic");
 	groups.push_back(sg);
@@ -103,6 +110,8 @@ Statistics::Statistics() {
 						StatObject::AVG, "NIF");
 	groups.push_back(sg);
 
+
+
 	// Canviar MMA -> AVG
 //	sg = new StatGroup_ListAll("Performance: Electronic Comm", StatObject::MMA,
 //			StatObject::TIME_AVG, "eNIF");
@@ -114,6 +123,10 @@ Statistics::Statistics() {
 //	groups.push_back(sg);
 
     sg = new StatGroup_ListAll("Performance: MAC", StatObject::TOTAL,
+            StatObject::TOTAL, "MAC");
+    groups.push_back(sg);
+
+    sg = new StatGroup_ListAll("Performance: MAC", StatObject::AVG,
             StatObject::TOTAL, "MAC");
     groups.push_back(sg);
 
@@ -300,4 +313,3 @@ StatObject* Statistics::registerStat(string name, int type, string modifiers) {
 
 	return ret;
 }
-

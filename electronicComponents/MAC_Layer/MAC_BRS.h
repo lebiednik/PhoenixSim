@@ -50,6 +50,7 @@ private:
 
 	int nRetries;
   double value;
+  double total_backoff;
 
 
 	cMessage *backoffMsg;
@@ -260,6 +261,70 @@ private:
   StatObject* backoff62;
   StatObject* backoff63;
 
+  StatObject* queue_time00;
+  StatObject* queue_time01;
+  StatObject* queue_time02;
+  StatObject* queue_time03;
+  StatObject* queue_time04;
+  StatObject* queue_time05;
+  StatObject* queue_time06;
+  StatObject* queue_time07;
+  StatObject* queue_time08;
+  StatObject* queue_time09;
+  StatObject* queue_time10;
+  StatObject* queue_time11;
+  StatObject* queue_time12;
+  StatObject* queue_time13;
+  StatObject* queue_time14;
+  StatObject* queue_time15;
+  StatObject* queue_time16;
+  StatObject* queue_time17;
+  StatObject* queue_time18;
+  StatObject* queue_time19;
+  StatObject* queue_time20;
+  StatObject* queue_time21;
+  StatObject* queue_time22;
+  StatObject* queue_time23;
+  StatObject* queue_time24;
+  StatObject* queue_time25;
+  StatObject* queue_time26;
+  StatObject* queue_time27;
+  StatObject* queue_time28;
+  StatObject* queue_time29;
+  StatObject* queue_time30;
+  StatObject* queue_time31;
+  StatObject* queue_time32;
+  StatObject* queue_time33;
+  StatObject* queue_time34;
+  StatObject* queue_time35;
+  StatObject* queue_time36;
+  StatObject* queue_time37;
+  StatObject* queue_time38;
+  StatObject* queue_time39;
+  StatObject* queue_time40;
+  StatObject* queue_time41;
+  StatObject* queue_time42;
+  StatObject* queue_time43;
+  StatObject* queue_time44;
+  StatObject* queue_time45;
+  StatObject* queue_time46;
+  StatObject* queue_time47;
+  StatObject* queue_time48;
+  StatObject* queue_time49;
+  StatObject* queue_time50;
+  StatObject* queue_time51;
+  StatObject* queue_time52;
+  StatObject* queue_time53;
+  StatObject* queue_time54;
+  StatObject* queue_time55;
+  StatObject* queue_time56;
+  StatObject* queue_time57;
+  StatObject* queue_time58;
+  StatObject* queue_time59;
+  StatObject* queue_time60;
+  StatObject* queue_time61;
+  StatObject* queue_time62;
+  StatObject* queue_time63;
 
 	StatObject* discarded;
 	StatObject* switched;

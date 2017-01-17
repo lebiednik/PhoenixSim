@@ -238,8 +238,8 @@ void Processor::initialize(int stage) {
 	//below taken from bw
 	SO_num_messages_in = Statistics::registerStat("Total messages in", StatObject::TOTAL, "MAC");
 	SO_num_messages_out = Statistics::registerStat("Total messages out", StatObject::TOTAL, "MAC");
-	SO_num_messages_00 = Statistics::registerStat("Node 0", StatObject::TOTAL, "MAC");
-	//p=0 gets all of the packets
+
+	SO_num_messages_00 = Statistics::registerStat("Node 00 messages sent", StatObject::TOTAL, "MAC");
 	SO_num_messages_01 = Statistics::registerStat("Node 01 messages sent", StatObject::TOTAL, "MAC");
 	SO_num_messages_02 = Statistics::registerStat("Node 02 messages sent", StatObject::TOTAL, "MAC");
 	SO_num_messages_03 = Statistics::registerStat("Node 03 messages sent", StatObject::TOTAL, "MAC");
@@ -304,16 +304,16 @@ void Processor::initialize(int stage) {
 	SO_num_messages_62 = Statistics::registerStat("Node 62 messages sent", StatObject::TOTAL, "MAC");
 	SO_num_messages_63 = Statistics::registerStat("Node 63 messages sent", StatObject::TOTAL, "MAC");
 
-	SO_latency_bcast_00 = Statistics::registerStat("Broadcast Latency Node 0 (us)", StatObject::AVG,"application");
-	SO_latency_bcast_01 = Statistics::registerStat("Broadcast Latency Node 1(us)", StatObject::AVG,"application");
-	SO_latency_bcast_02 = Statistics::registerStat("Broadcast Latency Node 2(us)", StatObject::AVG,"application");
-	SO_latency_bcast_03 = Statistics::registerStat("Broadcast Latency Node 3(us)", StatObject::AVG,"application");
-	SO_latency_bcast_04 = Statistics::registerStat("Broadcast Latency Node 4(us)", StatObject::AVG,"application");
-	SO_latency_bcast_05 = Statistics::registerStat("Broadcast Latency Node 5(us)", StatObject::AVG,"application");
-	SO_latency_bcast_06 = Statistics::registerStat("Broadcast Latency Node 6(us)", StatObject::AVG,"application");
-	SO_latency_bcast_07 = Statistics::registerStat("Broadcast Latency Node 7(us)", StatObject::AVG,"application");
-	SO_latency_bcast_08 = Statistics::registerStat("Broadcast Latency Node 8(us)", StatObject::AVG,"application");
-	SO_latency_bcast_09 = Statistics::registerStat("Broadcast Latency Node 9(us)", StatObject::AVG,"application");
+	SO_latency_bcast_00 = Statistics::registerStat("Broadcast Latency Node 00(us)", StatObject::AVG,"application");
+	SO_latency_bcast_01 = Statistics::registerStat("Broadcast Latency Node 01(us)", StatObject::AVG,"application");
+	SO_latency_bcast_02 = Statistics::registerStat("Broadcast Latency Node 02(us)", StatObject::AVG,"application");
+	SO_latency_bcast_03 = Statistics::registerStat("Broadcast Latency Node 03(us)", StatObject::AVG,"application");
+	SO_latency_bcast_04 = Statistics::registerStat("Broadcast Latency Node 04(us)", StatObject::AVG,"application");
+	SO_latency_bcast_05 = Statistics::registerStat("Broadcast Latency Node 05(us)", StatObject::AVG,"application");
+	SO_latency_bcast_06 = Statistics::registerStat("Broadcast Latency Node 06(us)", StatObject::AVG,"application");
+	SO_latency_bcast_07 = Statistics::registerStat("Broadcast Latency Node 07(us)", StatObject::AVG,"application");
+	SO_latency_bcast_08 = Statistics::registerStat("Broadcast Latency Node 08(us)", StatObject::AVG,"application");
+	SO_latency_bcast_09 = Statistics::registerStat("Broadcast Latency Node 09(us)", StatObject::AVG,"application");
 	SO_latency_bcast_10 = Statistics::registerStat("Broadcast Latency Node 10(us)", StatObject::AVG,"application");
 	SO_latency_bcast_11 = Statistics::registerStat("Broadcast Latency Node 11(us)", StatObject::AVG,"application");
 	SO_latency_bcast_12 = Statistics::registerStat("Broadcast Latency Node 12(us)", StatObject::AVG,"application");
@@ -551,11 +551,7 @@ void Processor::handleMessage(cMessage* msg) {
 
 	string appStr = par("application");
 	app->currentTime = simTime();
-  //if (time(0)-keyTime > 10){//If key is more than 10 seconds old then change the key
-		//keyTime = time(0);
-		//usleep(.007);
 
-	//}
 	if (msg->isSelfMessage()) { //self messages are to be sent somewhere (these are App messages)
 		ApplicationData* adata = check_and_cast<ApplicationData*> (msg);
 
@@ -663,6 +659,9 @@ void Processor::handleMessage(cMessage* msg) {
 			SO_bw->track(adata->getPayloadSize() / 1e9);//"App RX Throughput (Gb/s)"
 			SO_num_messages_in->track(1);
 			SO_bw3->track(adata->getPayloadSize() / simTime() / 1e9);//"App Throughput Time Distribution (Gb/s)"
+			/*The following code will track the number of messages sent by node
+			and the latency of those messages by first checking the if the packet arrived
+			at the correct node and then registering the stats for the sending node*/
 
 			int destID = adata->getDestId();
 			int n = adata->getSrcId();
@@ -844,8 +843,8 @@ void Processor::handleMessage(cMessage* msg) {
 					SO_latency_bcast_43->track(SIMTIME_DBL(simTime()- adata->getCreationTime()) / 1e-6);
 				}
 				else if (n==44){
-					SO_num_messages_44->track(1);
 					SO_latency_bcast_44->track(SIMTIME_DBL(simTime()- adata->getCreationTime()) / 1e-6);
+					SO_num_messages_44->track(1);
 				}
 				else if (n == 45){
 					SO_num_messages_45->track(1);

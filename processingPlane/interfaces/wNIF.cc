@@ -243,8 +243,8 @@ void wNIF::procMsgArrived(ProcessorData* pdata) { //OK
 	//NetworkAddress* node = (NetworkAddress*) pdata->getSrcAddr();
 	//int n = node->id[AddressTranslator::convertLevel("NET")];
 
-	if(id == -1 ){ //4 times the traffic for nodes in quadrant 0
-		for(int i=0; i<11; i++){
+	if(id == 0 || id==20 ){ //4 times the traffic for nodes in quadrant 0
+		for(int i=0; i<9; i++){
 			ProcessorData* junk;
 
 			junk = pdata->dup(); //generates duplicates of the data

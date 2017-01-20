@@ -127,8 +127,12 @@ Statistics::Statistics() {
     groups.push_back(sg);
 
     sg = new StatGroup_ListAll("Performance: MAC", StatObject::AVG,
-            StatObject::TOTAL, "MAC");
+            StatObject::AVG, "MAC");
     groups.push_back(sg);
+    
+    sg = new StatGroup_ListAll("Performance: MAC", StatObject::MMA,
+			StatObject::MMA, "MAC");
+	groups.push_back(sg);
 
 	sg = new StatGroup_ListAll("Performance: DRAM", StatObject::BEGIN,
 			StatObject::TOTAL, "DRAM");

@@ -77,8 +77,10 @@ protected:
 		StatObject* SO_bwTX;
 		StatObject* SO_bw2;
 		StatObject* SO_bw3;
+
 		StatObject* SO_num_messages_in;
 		StatObject* SO_num_messages_out;
+
 		StatObject* SO_num_messages_00;
 		StatObject* SO_num_messages_01;
 		StatObject* SO_num_messages_02;
@@ -207,6 +209,7 @@ protected:
 		StatObject* SO_latency_bcast_61;
 		StatObject* SO_latency_bcast_62;
 		StatObject* SO_latency_bcast_63;
+		
 
 
 		cGate* fromNic;

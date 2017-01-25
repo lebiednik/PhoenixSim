@@ -178,6 +178,7 @@ ElectronicMessage::ElectronicMessage(const char *name, int kind) : ::cPacket(nam
     this->LTB_var = 0;
     this->sourceBit_var = 1;
     this->numRetries_var = 0;
+    this->BOcounter_var = 0;
     circuitAvailable_arraysize = 0;
     this->circuitAvailable_var = 0;
     circuitCheck_arraysize = 0;
@@ -221,6 +222,7 @@ void ElectronicMessage::copy(const ElectronicMessage& other)
     this->LTB_var = other.LTB_var;
     this->sourceBit_var = other.sourceBit_var;
     this->numRetries_var = other.numRetries_var;
+    this->BOcounter_var = other.BOcounter_var;
     delete [] this->circuitAvailable_var;
     this->circuitAvailable_var = (other.circuitAvailable_arraysize==0) ? NULL : new bool[other.circuitAvailable_arraysize];
     circuitAvailable_arraysize = other.circuitAvailable_arraysize;
@@ -248,6 +250,7 @@ void ElectronicMessage::parsimPack(cCommBuffer *b)
     doPacking(b,this->LTB_var);
     doPacking(b,this->sourceBit_var);
     doPacking(b,this->numRetries_var);
+    doPacking(b,this->BOcounter_var);
     b->pack(circuitAvailable_arraysize);
     doPacking(b,this->circuitAvailable_var,circuitAvailable_arraysize);
     b->pack(circuitCheck_arraysize);
@@ -269,6 +272,7 @@ void ElectronicMessage::parsimUnpack(cCommBuffer *b)
     doUnpacking(b,this->LTB_var);
     doUnpacking(b,this->sourceBit_var);
     doUnpacking(b,this->numRetries_var);
+    doUnpacking(b,this->BOcounter_var);
     delete [] this->circuitAvailable_var;
     b->unpack(circuitAvailable_arraysize);
     if (circuitAvailable_arraysize==0) {
@@ -407,6 +411,16 @@ void ElectronicMessage::setNumRetries(int numRetries)
     this->numRetries_var = numRetries;
 }
 
+int ElectronicMessage::getBOcounter() const
+{
+    return BOcounter_var;
+}
+
+void ElectronicMessage::setBOcounter(int BOcounter)
+{
+    this->BOcounter_var = BOcounter;
+}
+
 void ElectronicMessage::setCircuitAvailableArraySize(unsigned int size)
 {
     bool *circuitAvailable_var2 = (size==0) ? NULL : new bool[size];
@@ -514,7 +528,7 @@ const char *ElectronicMessageDescriptor::getProperty(const char *propertyname) c
 int ElectronicMessageDescriptor::getFieldCount(void *object) const
 {
     cClassDescriptor *basedesc = getBaseClassDescriptor();
-    return basedesc ? 14+basedesc->getFieldCount(object) : 14;
+    return basedesc ? 15+basedesc->getFieldCount(object) : 15;
 }
 
 unsigned int ElectronicMessageDescriptor::getFieldTypeFlags(void *object, int field) const
@@ -538,10 +552,11 @@ unsigned int ElectronicMessageDescriptor::getFieldTypeFlags(void *object, int fi
         FD_ISEDITABLE,
         FD_ISEDITABLE,
         FD_ISEDITABLE,
+        FD_ISEDITABLE,
         FD_ISARRAY | FD_ISEDITABLE,
         FD_ISARRAY | FD_ISEDITABLE,
     };
-    return (field>=0 && field<14) ? fieldTypeFlags[field] : 0;
+    return (field>=0 && field<15) ? fieldTypeFlags[field] : 0;
 }
 
 const char *ElectronicMessageDescriptor::getFieldName(void *object, int field) const
@@ -565,10 +580,11 @@ const char *ElectronicMessageDescriptor::getFieldName(void *object, int field) c
         "LTB",
         "sourceBit",
         "numRetries",
+        "BOcounter",
         "circuitAvailable",
         "circuitCheck",
     };
-    return (field>=0 && field<14) ? fieldNames[field] : NULL;
+    return (field>=0 && field<15) ? fieldNames[field] : NULL;
 }
 
 int ElectronicMessageDescriptor::findField(void *object, const char *fieldName) const
@@ -587,8 +603,9 @@ int ElectronicMessageDescriptor::findField(void *object, const char *fieldName) 
     if (fieldName[0]=='L' && strcmp(fieldName, "LTB")==0) return base+9;
     if (fieldName[0]=='s' && strcmp(fieldName, "sourceBit")==0) return base+10;
     if (fieldName[0]=='n' && strcmp(fieldName, "numRetries")==0) return base+11;
-    if (fieldName[0]=='c' && strcmp(fieldName, "circuitAvailable")==0) return base+12;
-    if (fieldName[0]=='c' && strcmp(fieldName, "circuitCheck")==0) return base+13;
+    if (fieldName[0]=='B' && strcmp(fieldName, "BOcounter")==0) return base+12;
+    if (fieldName[0]=='c' && strcmp(fieldName, "circuitAvailable")==0) return base+13;
+    if (fieldName[0]=='c' && strcmp(fieldName, "circuitCheck")==0) return base+14;
     return basedesc ? basedesc->findField(object, fieldName) : -1;
 }
 
@@ -613,10 +630,11 @@ const char *ElectronicMessageDescriptor::getFieldTypeString(void *object, int fi
         "int",
         "int",
         "int",
+        "int",
         "bool",
         "bool",
     };
-    return (field>=0 && field<14) ? fieldTypeStrings[field] : NULL;
+    return (field>=0 && field<15) ? fieldTypeStrings[field] : NULL;
 }
 
 const char *ElectronicMessageDescriptor::getFieldProperty(void *object, int field, const char *propertyname) const
@@ -645,8 +663,8 @@ int ElectronicMessageDescriptor::getArraySize(void *object, int field) const
     }
     ElectronicMessage *pp = (ElectronicMessage *)object; (void)pp;
     switch (field) {
-        case 12: return pp->getCircuitAvailableArraySize();
-        case 13: return pp->getCircuitCheckArraySize();
+        case 13: return pp->getCircuitAvailableArraySize();
+        case 14: return pp->getCircuitCheckArraySize();
         default: return 0;
     }
 }
@@ -673,8 +691,9 @@ std::string ElectronicMessageDescriptor::getFieldAsString(void *object, int fiel
         case 9: return long2string(pp->getLTB());
         case 10: return long2string(pp->getSourceBit());
         case 11: return long2string(pp->getNumRetries());
-        case 12: return bool2string(pp->getCircuitAvailable(i));
-        case 13: return bool2string(pp->getCircuitCheck(i));
+        case 12: return long2string(pp->getBOcounter());
+        case 13: return bool2string(pp->getCircuitAvailable(i));
+        case 14: return bool2string(pp->getCircuitCheck(i));
         default: return "";
     }
 }
@@ -701,8 +720,9 @@ bool ElectronicMessageDescriptor::setFieldAsString(void *object, int field, int 
         case 9: pp->setLTB(string2long(value)); return true;
         case 10: pp->setSourceBit(string2long(value)); return true;
         case 11: pp->setNumRetries(string2long(value)); return true;
-        case 12: pp->setCircuitAvailable(i,string2bool(value)); return true;
-        case 13: pp->setCircuitCheck(i,string2bool(value)); return true;
+        case 12: pp->setBOcounter(string2long(value)); return true;
+        case 13: pp->setCircuitAvailable(i,string2bool(value)); return true;
+        case 14: pp->setCircuitCheck(i,string2bool(value)); return true;
         default: return false;
     }
 }

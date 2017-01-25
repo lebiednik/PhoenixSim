@@ -109,6 +109,7 @@ packet ElectronicMessage
  	int sourceBit = 1; //for EMB implementing Krishna2011
  	
  	int numRetries = 0;
+	int BOcounter = 0;
 
     // determines if the circuit is still valid or not (e.g. has it been blocked?)
     bool circuitAvailable[];

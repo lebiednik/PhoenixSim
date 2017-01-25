@@ -331,6 +331,7 @@ enum MemoryAccessType {
  *  	int sourceBit = 1; 
  *  	
  *  	int numRetries = 0;
+ * 	int BOcounter = 0;
  * 
  *     
  *     bool circuitAvailable[];
@@ -355,6 +356,7 @@ class ElectronicMessage : public ::cPacket
     int LTB_var;
     int sourceBit_var;
     int numRetries_var;
+    int BOcounter_var;
     bool *circuitAvailable_var; // array ptr
     unsigned int circuitAvailable_arraysize;
     bool *circuitCheck_var; // array ptr
@@ -401,6 +403,8 @@ class ElectronicMessage : public ::cPacket
     virtual void setSourceBit(int sourceBit);
     virtual int getNumRetries() const;
     virtual void setNumRetries(int numRetries);
+    virtual int getBOcounter() const;
+    virtual void setBOcounter(int BOcounter);
     virtual void setCircuitAvailableArraySize(unsigned int size);
     virtual unsigned int getCircuitAvailableArraySize() const;
     virtual bool getCircuitAvailable(unsigned int k) const;
